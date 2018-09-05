@@ -1,0 +1,50 @@
+Name :- shahbaz khan
+R NO :- 49
+BSCS 6th Semester
+
+
+Q#1 How to launch swi-prolog on command line ?
+Ans# swi prolog can be executed in one of the following modes:
+swip1--help
+swip1--version
+swip1--arch
+swip1--dump-runtime-variables
+
+Q#2 What is the extension of a prolog knowledge Base ?
+Ans# The first conideration is what extension to use for the source files. Tradition calls for .pl.
+
+Q#3 How to load a knowledge base in prolog ?
+Ans# ailog: load 'filename'.
+where 'filename' is the name (enclosed in single quotes) of a file contains a sequence of clauses (Each clause ending with a period).
+
+Q#4 How to exit a prolog session?
+Ans# starting is easy, just envoke the program name(pl) at the command line.cammand line options are usually spelled out,but how do you exit a program once it is started, that's a trick.
+assumimg for a moment you do not want to save s program (that will come later),hit control-c from this you'll usually get another prompt.
+
+Q#5 How to get help on a topic from within prolog ?
+Ans# Getting started
+     Getting Help
+     Running a simple program
+for help,use ?-help(Topic). or ?- apropos(word).
+
+
+Q#6  What is an atom ?
+Ans# Prolog is dynamically typed. it has a single data type,the term,which has several subtype:atoms,numbers,variables and compound terms.An atom is a general purpose name with no inherent meaning.
+
+Q#7 What is a term ?
+Ans# All prolog data structures are called terms.a term is either: A constant which can be either an atom or a number.
+
+Q#8 what is functor?
+Ans# in prolog the word funtor is use to refer to the atom at the start of a structure along with its arity ,thats the number of arguments it takes.
+
+Q#9 what are comlex terms ?
+Ans# the number of arguments that are comlex term has is called its arity for instance women(MIA) is a comlex term with arity one while loves (vincent,mia)is a comlex term with arity 2
+
+Q# 10 what is preedicate?
+Ans#  the preedicate name is prolog atom.each argument is an arbitrary prolog term.
+
+Q#11 what is Arity of preedicate?
+Ans# The arity of a funtor is the number of arguments it takes every fact and roles in a prolog program and every built in preedicate has in arity.
+
+Q#12 what is unification?
+Ans# the way in which prolog matches two terms is called unification.
